@@ -5,4 +5,4 @@ npm-debug.log
 yarn-error.log
 coverage/
 dist/
-server/ts-server-build/
+ts-server-build/
