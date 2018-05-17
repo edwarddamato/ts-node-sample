@@ -1,0 +1,10 @@
+{
+  "presets": ["env"],
+  "ignore": ["*/**/__tests__", "*/**/__mocks__"],
+  "plugins": [
+  ],
+  "env": {
+    "test": {
+    }
+  }
+}
