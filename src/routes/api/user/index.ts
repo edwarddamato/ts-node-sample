@@ -1,7 +1,8 @@
 import * as express from 'express';
 import { Api } from '../../../api/github';
+import { IRoute } from '../../../routes';
 
-export default {
+const getUserRoute: IRoute = {
   method: 'get',
   name: '/api/user',
   action: async (req: express.Request, res: express.Response) => {
@@ -13,3 +14,5 @@ export default {
     }
   }
 };
+
+export default getUserRoute;
